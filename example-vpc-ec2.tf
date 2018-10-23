@@ -48,7 +48,7 @@ resource "aws_security_group" "sg-bastion" {
 		from_port   = 22
 		to_port     = 22
 		protocol    = "tcp"
-		cidr_blocks = ["78.253.108.29/32"]
+		cidr_blocks = ["XX.XX.XX.XX/32"]
 	}
 
 }
